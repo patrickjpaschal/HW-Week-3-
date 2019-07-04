@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Can You Guess The Letter I'm Thinking About?</title>
+
+  
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+
+  
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!--  navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.html" id = guessedLetters>Letters You've Already Guessed:</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id = "tGuesses">Guesses left: </a></li>
+          <li><a id = "wScore" >Wins: </a></li>
+          <li><a id = "lScore">Loses: </a></li>
+          <li><a id = "computerChoice">Letter Was: </a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Can you guess what the computer is thinking????</h1>
+          <h2 class="subtitle">Here are the rules: 
+            Guess what letter I am thinking of
+            If you win, it will be counted
+            But I will also keep track of how many times I win
+            You can see how many guesses you have left, and what letters you've guessed so far. Press any Letter to get started.
+          </h2>
+          
+         
+        </div>
+        <div class="col-lg-4 col-lg-offset-2">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+           
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/img/slide1.png" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/img/slide2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/img/slide3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copyright">&copy; John Paschal 2019</p>
+        </div>
+        <div class="col-md-6">
+          <div class="credits">
+            
+            Designed by <a href="mailto:patrickjpaschal@gmail.com"> John Paschal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/letter.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
