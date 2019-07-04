@@ -31,7 +31,8 @@ document.onkeyup = function(event) {
   if (userGuess === computerGuess) {
     document.getElementById("wScore").innerHTML = "you win!" ;
     wScore++;
-   computerGuess[Math.floor(Math.random() * computerChoices.length)] = [];
+   computerGuess[Math.floor(Math.random() * computerChoices.length)];
+   reset();
 
     document.getElementById("wScore").innerHTML = "wins:" + wScore;
   }
