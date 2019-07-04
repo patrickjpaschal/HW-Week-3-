@@ -55,3 +55,4 @@ document.onkeyup = function(event) {
 }
 //   if (computerGuess > 10)
 //   {Document.getElementById}
+// Fixed Finally!!
